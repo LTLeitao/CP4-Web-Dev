@@ -31,27 +31,35 @@ Este projeto foi construído para fins de avaliação acadêmica na disciplina d
 
 ---
 
-Estrutura do Projeto
-CP4-Web-dev
+## Estrutura do Projeto
+
+```text
+CP4-Web-dev/
 ├── public/
 ├── src/
 │   ├── components/
 │   │   ├── ActionControls.jsx   # Botões de interação (Pular / Curtir)
-│   │   └── MovieCard.jsx        # Card reutilizável do filme
+│   │   ├── MovieCard.jsx        # Card reutilizável do filme
+│   │   └── RootLayout.jsx       # Estrutura do layout com Header e Footer
 │   ├── pages/
 │   │   ├── Favoritos.jsx        # Gerenciamento e grid de salvos
 │   │   ├── Home.jsx             # Fluxo principal da roleta
 │   │   └── PageNotFound.jsx     # Tratamento de rotas inexistentes
+│   ├── App.css
+│   ├── App.jsx
 │   ├── index.css                # Estilização global do projeto
-│   ├── main.jsx                 # Ponto de entrada React
-│   └── RootLayout.jsx           # Estrutura do layout com Header e Footer
+│   └── main.jsx                 # Ponto de entrada React
 ├── .env                         # Variáveis de ambiente (não versionado)
 ├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 ---
 
-Autor
+## Autor
 Desenvolvido para fins de estudo e apresentação de MVP na disciplina de Desenvolvimento Web.

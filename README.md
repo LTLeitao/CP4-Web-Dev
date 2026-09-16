@@ -31,39 +31,8 @@ Este projeto foi construído para fins de avaliação acadêmica na disciplina d
 
 ---
 
-## Pré-requisitos
-
-Antes de iniciar, certifique-se de ter instalado em sua máquina:
-
-* [Node.js](https://nodejs.org/) (versão 18.0 ou superior)
-* Gerenciador de pacotes `npm`
-* Uma chave de API válida do **The Movie Database (TMDB)**
-
----
-
-## Passo a Passo para Execução Local
-
-### 1. Clonar o Repositório
-```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-cd seu-repositorio
-2. Instalar as Dependências
-Bash
-npm install
-3. Configurar as Variáveis de Ambiente (.env)
-Na raiz do projeto, crie um arquivo chamado .env e adicione a sua chave da API do TMDB:
-
-Snippet de código
-VITE_TMDB_API_KEY=sua_chave_api_aqui
-Nota: A variável precisa obrigatoriamente iniciar com o prefixo VITE_ para ser reconhecida pelo ambiente do Vite.
-
-4. Iniciar o Servidor de Desenvolvimento
-Bash
-npm run dev
-Acesse o endereço exibido no terminal (geralmente http://localhost:5173/).
-
 Estrutura do Projeto
-Plaintext
+CP4-Web-dev
 ├── public/
 ├── src/
 │   ├── components/
@@ -81,5 +50,8 @@ Plaintext
 ├── package.json
 ├── README.md
 └── vite.config.js
+
+---
+
 Autor
 Desenvolvido para fins de estudo e apresentação de MVP na disciplina de Desenvolvimento Web.

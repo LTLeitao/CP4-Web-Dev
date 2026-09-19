@@ -9,6 +9,12 @@ Este projeto foi construído para fins de avaliação acadêmica na disciplina d
 
 ---
 
+## Integrantes do Grupo
+
+* **Leonardo Teodoro Leitão** - RM 569724
+
+---
+
 ## Recursos Implementados
 
 * **Roleta de Filmes:** Consumo assíncrono da API do TMDB sorteando páginas e filmes aleatoriamente.
@@ -31,10 +37,42 @@ Este projeto foi construído para fins de avaliação acadêmica na disciplina d
 
 ---
 
+## API Utilizada
+
+* **TMDB API (The Movie Database):** Utilizada para consumo de dados assíncronos sobre filmes, incluindo títulos, sinopses, notas de avaliação e imagens de capas oficiais através da API REST pública.
+
+---
+
+## Funcionalidades
+
+* **Roleta de Filmes:** Sorteio aleatório de títulos e páginas diretamente da API do TMDB.
+* **Persistência de Favoritos:** Salvamento dos filmes curtidos no `localStorage` do navegador para manter os dados salvos entre sessões.
+* **Gerenciamento da Lista:** Visualização dos filmes salvos na rota de Favoritos, com suporte para remoção individual ou exclusão total em massa.
+* **Interface Cinematográfica:** Design responsivo em Dark Mode com feedback visual instantâneo para ações de Pular e Curtir.
+* **Tratamento de Dados:** Filtro de resiliência com imagens de fallback caso a capa do filme não exista na API e notas formatadas.
+
+---
+
+## Uso de Inteligência Artificial
+
+A Inteligência Artificial (Gemini / Claude) foi empregada durante o desenvolvimento do projeto como uma ferramenta de **parceira de estudos e revisão técnica**, auxiliando nas seguintes etapas:
+
+1. **Estruturação de Documentação:** Apoio na elaboração e formatação dos arquivos da pasta `docs/` (`requirements.md`, `architecture.md` e `references.md`) e do `README.md`.
+2. **Resolução de Bugs e Syntax Check:** Auxílio no diagnóstico de erros de imports no `React Router` e verificação da sintaxe correta das chaves (`key`) em iterações com `.map()`.
+3. **Revisão de Requisitos:** Validação dos requisitos do projeto para garantir alinhamento com as boas práticas aprendidas em sala de aula.
+
+---
+
 ## Estrutura do Projeto
 
 ```text
 CP4-Web-dev/
+├── docs/
+│   ├── architecture.md
+│   ├── references/
+│   │   ├── imagens/
+│   │   └── references.md
+│   └── requirements.md
 ├── public/
 ├── src/
 │   ├── components/
@@ -62,4 +100,4 @@ CP4-Web-dev/
 ---
 
 ## Autor
-Desenvolvido para fins de estudo e apresentação de MVP na disciplina de Desenvolvimento Web.
+Desenvolvido por Leonardo Teodoro Leitão para fins de estudo e apresentação de MVP na disciplina de Desenvolvimento Web.
